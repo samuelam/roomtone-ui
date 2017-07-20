@@ -2,11 +2,11 @@
 
 A UI theme that adapts to most syntax themes. Based on [One Light UI](https://github.com/atom/one-light-ui).
 
-![roomtone-ui](https://user-images.githubusercontent.com/3765/28441691-f4e7a51c-6d60-11e7-81e4-09a6dfc1ae9c.png)
+There is also a matching [syntax theme](https://github.com/samuelam/roomtone-light-syntax).
+
+![Roomtone UI](https://user-images.githubusercontent.com/3765/28441691-f4e7a51c-6d60-11e7-81e4-09a6dfc1ae9c.png)
 
 > The font used in the screenshot is [Hasklig](https://github.com/i-tu/Hasklig).
-
-There is also a matching [syntax theme](https://github.com/samuelam/roomtone-light-syntax).
 
 ### Install
 
