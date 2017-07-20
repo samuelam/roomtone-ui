@@ -1,0 +1,57 @@
+/* ------------------------------------------------------
+  Todo Show
+  <https://atom.io/packages/todo-show>
+  ---------------------------------------------------- */
+.todo-status-bar-indicator {
+  margin-left:15px;
+  .icon-checklist {
+    &::before {
+      font-size:16px;
+      margin-right:1px;
+    }
+  }
+}
+.show-todo-preview {
+  .todo-info-block {
+    code {
+      padding:0;
+      border:0;
+      vertical-align:baseline;
+      font-size:15px;
+      // color:#FFF;
+      // background-color:transparent;
+    }
+  }
+  .todo-options {
+    code {
+      // background-color:rgba(255,255,255,.9);
+      border-radius:3px;
+      // color:#222;
+    }
+  }
+  .todo-table {
+    th {
+      font-size: @ui-size*1.1;
+      font-weight:600;
+      // text-transform:uppercase;
+      // padding:5px 8px !important;
+      + th {
+        border-color:rgba(0,0,0,0.1);
+      }
+    }
+    td {
+        // padding:5px 8px !important;
+        font-size: @ui-size*1.1;
+        line-height:1.2;
+      i {
+        font-style:normal;
+      }
+      a {
+        font-size:13px;
+      }
+      + td {
+        border-color:rgba(0,0,0,0.1);
+      }
+    }
+  }
+}
