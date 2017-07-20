@@ -2,7 +2,7 @@
 
 A UI theme that adapts to most syntax themes. Based on [One Light UI](https://github.com/atom/one-light-ui).
 
-![One light UI](https://cloud.githubusercontent.com/assets/378023/26246819/0826f04e-3cd6-11e7-98eb-cd94bc48b090.png)
+![roomtone-ui](https://user-images.githubusercontent.com/3765/28441691-f4e7a51c-6d60-11e7-81e4-09a6dfc1ae9c.png)
 
 > The font used in the screenshot is [Hasklig](https://github.com/i-tu/Hasklig).
 
@@ -10,8 +10,8 @@ There is also a matching [syntax theme](https://github.com/samuelam/roomtone-lig
 
 ### Install
 
-```
-git clone git@github.com:samuelam/roomtone-ui.git ~/.atom/packages/roomtone-ui
+```shell
+git clone https://github.com/samuelam/roomtone-ui.git ~/.atom/packages/roomtone-ui
 ```
 
 
