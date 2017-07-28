@@ -24,10 +24,28 @@
     background-color: @level-3-color;
     background-image: none;
     border-color: @level-3-color;
+    &.disabled {
+      color: @tab-text-color;
+      &:hover,
+      &:focus,
+      &:active {
+        border-color: @level-3-color;
+        color: @tab-text-color;
+        background-color: @level-3-color;
+        background-image: none;
+        border-color: @level-3-color;
+        cursor: default;
+        box-shadow: none;
+      }
+    }
   }
 
   // Customize icon size
-  &.tool-bar-12px .tool-bar-btn::before {
-    font-size:16px;
+  &.tool-bar-12px .tool-bar-btn {
+    margin: 2px 4px;
+    &::before {
+      font-size: 18px;
+      line-height: 25px;
+    }
   }
 }
