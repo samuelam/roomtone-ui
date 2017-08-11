@@ -26,14 +26,16 @@
     // font-weight: 600;
   }
   .icon {
-    // margin-left:2px;
-    // margin-right:1px;
-    // font-size:@ui-size;
+    vertical-align: middle;
     &::before {
-      // font-size:12px;
-      // vertical-align:baseline;
-      margin-right:3px;
-      margin-left:2px;
+      font-size: 13px; // should be 16px with a default of 12px
+      width: auto; // use natural width
+      height: auto;
+      margin-right: .25em;
+      top: auto;
+
+      padding-right: 1px;
+      vertical-align: baseline;
     }
   }
 }
