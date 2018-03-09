@@ -4,13 +4,10 @@ describe "Roomtone UI theme", ->
       atom.packages.activatePackage('roomtone-ui')
 
   it "allows the font size to be set via config", ->
-    expect(document.documentElement.style.fontSize).toBe ''
+    expect(document.documentElement.style.fontSize).toBe '12px'
 
     atom.config.set('roomtone-ui.fontSize', '10')
     expect(document.documentElement.style.fontSize).toBe '10px'
-
-    atom.config.set('roomtone-ui.fontSize', 'Auto')
-    expect(document.documentElement.style.fontSize).toBe ''
 
   it "allows the tab sizing to be set via config", ->
     atom.config.set('roomtone-ui.tabSizing', 'Maximum')
