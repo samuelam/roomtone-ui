@@ -4,7 +4,7 @@ A UI theme that adapts to most syntax themes. Based on [One Light UI](https://gi
 
 There is also a matching [syntax theme](https://github.com/samuelam/roomtone-light-syntax).
 
-![Roomtone UI](https://roomtone.s3.amazonaws.com/assets/roomtone-ui-screenshot.png)
+![Roomtone UI](https://roomtone.s3.amazonaws.com/assets/atom-roomtone-ui.png)
 
 > The font used in the screenshot is [Hasklig](https://github.com/i-tu/Hasklig).
 
