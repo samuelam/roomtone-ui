@@ -1,7 +1,7 @@
 {
   "name": "roomtone-ui",
   "theme": "ui",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "private": true,
   "description": "A UI theme for Atom.",
   "keywords": [
@@ -21,14 +21,22 @@
   "configSchema": {
     "fontSize": {
       "title": "Font Size",
-      "description": "Change the UI font size. Needs to be between 8 and 20. In Auto mode, the Font Size will automatically change based on the window size.",
-      "type": [
-        "integer",
-        "string"
+      "description": "Change the font size for the UI.",
+      "type": "integer",
+      "default": 12,
+      "enum": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
       ],
-      "minimum": 8,
-      "maximum": 20,
-      "default": "Auto",
       "order": 1
     },
     "tabSizing": {
@@ -43,26 +51,29 @@
       ],
       "order": 2
     },
+    "tabCloseButton": {
+      "title": "Tab Close Button",
+      "description": "Choose the position of the close button shown in tabs.",
+      "type": "string",
+      "default": "Right",
+      "enum": [
+        "Left",
+        "Right"
+      ],
+      "order": 3
+    },
     "hideDockButtons": {
       "title": "Hide dock toggle buttons",
       "description": "Note: When hiding the toggle buttons, opening a dock needs to be done by using the keyboard or other alternatives.",
       "type": "boolean",
       "default": "false",
-      "order": 3
-    }
-  },
-  "_atomModuleCache": {
-    "version": 1,
-    "dependencies": [],
-    "extensions": {
-      ".json": [
-        "coffeelint.json",
-        "package.json"
-      ],
-      ".coffee": [
-        "lib/main.coffee"
-      ]
+      "order": 4
     },
-    "folders": []
+    "stickyHeaders": {
+      "title": "Make tree-view project headers sticky",
+      "type": "boolean",
+      "default": "true",
+      "order": 5
+    }
   }
 }
