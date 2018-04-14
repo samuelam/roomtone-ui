@@ -1,4 +1,3 @@
-
 @modal-padding: @ui-padding/2 @ui-padding/1.5;
 @modal-width: @ui-size * 50;
 
@@ -18,13 +17,11 @@ atom-panel.modal {
   padding: @ui-padding/2;
 
   &.from-top {
-    // top: @component-padding * 5;
-    top: @component-padding * 25;
+    top: @component-padding * 5;
   }
 
   atom-text-editor[mini] {
     margin-bottom: @ui-padding/2;
-    border-radius:0;
   }
 
   .select-list ol.list-group,
@@ -82,6 +79,11 @@ atom-panel.modal {
     position: relative; // fixes stacking order
   }
 
+  .command-palette {
+    padding: 1px; // prevents the box-shadow of the input from being cut off
+    background-color: @overlay-background-color;
+  }
+
 
   // Container
   &:before {
@@ -93,8 +95,7 @@ atom-panel.modal {
     bottom: 0;
     z-index: 0;
     background-color: @overlay-background-color;
-    // border-radius: @component-border-radius*2;
-    border-radius:0;
+    border-radius: @component-border-radius*2;
     box-shadow: 0 6px 12px -2px hsla(0,0%,0%,.4);
   }
 
