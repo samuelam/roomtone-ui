@@ -1,6 +1,6 @@
 ## Roomtone UI
 
-A UI theme that adapts to most syntax themes. Based on [One Light UI](https://github.com/atom/one-light-ui).
+A UI theme that adapts to most syntax themes. Based on [One Light UI](https://github.com/atom/atom/tree/master/packages/one-light-ui).
 
 There is also a matching [syntax theme](https://github.com/samuelam/roomtone-light-syntax).
 
