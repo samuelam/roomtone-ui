@@ -1,7 +1,7 @@
 {
   "name": "roomtone-ui",
   "theme": "ui",
-  "version": "1.1.2",
+  "version": "1.12.5",
   "private": true,
   "description": "A UI theme for Atom.",
   "keywords": [
@@ -16,7 +16,7 @@
     "atom": ">0.40.0"
   },
   "devDependencies": {
-    "coffeelint": "^1.9.7"
+      "standard": "^11.0.0"
   },
   "configSchema": {
     "fontSize": {
